@@ -3,6 +3,7 @@ import logo from "../../../public/Logo.png";
 import facebook from "../../../public/facebook.png";
 import internet from "../../../public/internet.png";
 import x from "../../../public/X.svg";
+import Link from "next/link";
 
 
 export function Footer(){
@@ -14,10 +15,18 @@ export function Footer(){
             </div>
 
             <ul className="flex flex-col items-center gap-y-[32px] text-[#36485C] pt-[56px] sm:flex-row sm:justify-center sm:gap-x-5 sm:pt-5">
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Enterprise</li>
-                <li>Careers</li>
+            <Link href="#features">
+            <span className="font-medium text-[#36485C]">Features</span>
+           </Link>
+           <Link href="#pricing">
+            <span className="font-medium text-[#36485C]">Pricing</span>
+           </Link>
+           <Link href="#getstart">
+            <span className="font-medium text-[#36485C]">Get started</span>
+           </Link>
+           <Link href="#faq">
+            <span className="font-medium text-[#36485C]">Faq</span>
+           </Link>
             </ul>
 
             <p className="text-[#5F7896] font-medium text-[14px] text-center pt-[56px] sm:pt-5">

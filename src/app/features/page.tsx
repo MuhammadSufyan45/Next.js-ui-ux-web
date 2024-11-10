@@ -7,9 +7,9 @@ import feature2 from "../../../public/Image2.png";
 import buttonpink from "../../../public/Buttonpink.svg";
 import feature3 from "../../../public/Image3.png";
 
-export function Features(){
+export default function Features(){
     return(
-        <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-120px lg:gap-y-[80px]">
+        <div id="features" className="flex flex-col gap-y-[56px] px-[20px] lg:container lg:px-20 mx-auto py-[56px] lg:py-120px lg:gap-y-[80px]">
             {/* Feature-1 */}
             <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
                 <Image src={feature1} 

@@ -2,9 +2,9 @@ import Image from "next/image";
 import gradient2 from "../../../public/Gradient2.png";
 import arrow2 from "../../../public/arrow2.png";
 
-export function Cta(){
+export default function Cta(){
     return(
-        <div className="w-full rounded-[16px] bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 py-[56px] px-[32px] text-center lg:my-[60px] lg:px-[324px] lg:p-[89px]">
+        <div id="getstart" className="w-full rounded-[16px] bg-gradient-to-br lg:container mx-auto from-pink-500 via-red-500 to-yellow-500 py-[56px] px-[32px] text-center lg:my-[60px] lg:px-[324px] lg:p-[89px]">
             <h1 className="text-white text-[32px] font-medium lg:text-[56px] lg:font-medium">
                 Monitor your website like a pro
             </h1>

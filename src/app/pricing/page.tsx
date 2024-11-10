@@ -2,9 +2,9 @@ import Image from "next/image";
 import check from "../../../public/check 1.png";
 import checkwhite from "../../../public/checkwhite.png";
 
-export function Pricing(){
+export default function Pricing(){
     return(
-    <div className="py-[48px] lg:py-[60px]">
+    <div id="pricing" className="py-[48px] lg:py-[60px] px-[20px] lg:container lg:px-20 mx-auto">
         <h1 className="text-[#172026] font-medium text-center text-[24px] lg:text-[42px]">
         Flexible plans for you
         </h1>
